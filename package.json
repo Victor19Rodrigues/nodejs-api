@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": "git@github.com:Victor19Rodrigues/nodejs-api.git",
+  "author": "Victor Rodrigues <victor.rodrigues@justdigital.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.3",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "guid": "^0.0.12",
+    "http": "^0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
